@@ -36,6 +36,9 @@ function Hero() {
         <h1>
           Helen Ho
         </h1>
+        <h2>
+          hth2016@stern.nyu.edu
+        </h2>
         <span>
           <a href="https://github.com/hhelenho" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />

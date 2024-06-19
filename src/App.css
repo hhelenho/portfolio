@@ -1,6 +1,6 @@
 :root {
   --background-color: #fff;
-  --btn-color: #0987f2;
+  --btn-color: #aa6b28f6;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
   --text-color: #222;
@@ -22,7 +22,7 @@ body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 60px;
+  margin: 0 auto 30px;
 }
 
 #root {
@@ -67,7 +67,7 @@ p {
 }
 
 .sectionTitle {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .hover {
@@ -76,7 +76,7 @@ p {
 
 @media (width >= 800px) {
   #root {
-    gap: 100px;
+    gap: 70px;
   }
   h1 {
     font-size: 40px;
@@ -90,12 +90,12 @@ p {
   }
 
   .sectionTitle {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
   @media (width >= 1400px) {
     #root {
-      gap: 200px;
+      gap: 80px;
     }
     h1 {
       font-size: 48px;
