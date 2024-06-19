@@ -13,17 +13,17 @@ function Skills() {
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
         <SkillList skill="HTML" />
-        <SkillList skill="CSS" />
-        <SkillList skill="JavaScript" />
+        <SkillList skill="Python" />
+        <SkillList skill="Java" />
         <SkillList skill="TypeScript" />
-        <SkillList skill="Node" />
+        <SkillList skill="C" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList skill="Redux" />
-        <SkillList skill="Webpack" />
+        <SkillList skill="AWS" />
+        <SkillList skill="Terraform" />
         <SkillList skill="Git" />
-        <SkillList skill="Jest" />
+        <SkillList skill="React" />
         <SkillList skill="Bootstrap" />
       </div>
     </section>
