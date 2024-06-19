@@ -23,7 +23,7 @@ function Hero() {
           src={headshot}
           className={styles.hero}
           alt="Profile picture of Helen Ho"
-          style={{ width: '300px', height: '300px' }}
+          style={{ width: '300px', height: '309px' }}
         />
         <img
           className={styles.colorMode}
@@ -34,11 +34,8 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Helen
-          <br />
-          Ho
+          Helen Ho
         </h1>
-        <h2>Software Engineer</h2>
         <span>
           <a href="https://github.com/hhelenho" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />
