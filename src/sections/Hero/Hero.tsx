@@ -37,7 +37,7 @@ function Hero() {
           Helen Ho
         </h1>
         <h2>
-          hth2016@stern.nyu.edu
+          Data Engineer
         </h2>
         <span>
           <a href="https://github.com/hhelenho" target="_blank" rel="noopener noreferrer">
@@ -48,8 +48,11 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Finance & CS Undergraduate Student at New York University, Product Manager & Data Engineer
+          Finance & CS Undergraduate Student at New York University
         </p>
+        <h3>
+          hth2016@stern.nyu.edu
+        </h3>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>

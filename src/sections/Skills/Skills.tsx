@@ -12,7 +12,6 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-        <SkillList skill="HTML" />
         <SkillList skill="Python" />
         <SkillList skill="Java" />
         <SkillList skill="TypeScript" />
@@ -24,7 +23,7 @@ function Skills() {
         <SkillList skill="Terraform" />
         <SkillList skill="Git" />
         <SkillList skill="React" />
-        <SkillList skill="Bootstrap" />
+        <SkillList skill="Jira" />
       </div>
     </section>
   );

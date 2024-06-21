@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import options from '../../assets/options.png';
+import restaurant from '../../assets/restaurant.png';
+import coffee from '../../assets/coffee.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +10,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={options}
+          link="https://github.com/hhelenho/option-pricing"
+          h3="Option Pricing"
+          p="Finance"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={restaurant}
+          link="https://github.com/hhelenho/reservation-app"
+          h3="Reservation App"
+          p="Consumers"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={coffee}
+          link="https://github.com/hhelenho/coffee-suggestion"
+          h3="Coffee Suggestion"
+          p="Leisure"
         />
       </div>
     </section>
