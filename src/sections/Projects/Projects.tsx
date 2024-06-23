@@ -1,7 +1,5 @@
 import styles from './ProjectsStyles.module.css';
 import options from '../../assets/options.png';
-import restaurant from '../../assets/restaurant.png';
-import coffee from '../../assets/coffee.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,21 +9,21 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={options}
-          link="https://github.com/hhelenho/option-pricing"
+          link="https://github.com/hhelenho/demo"
           h3="Option Pricing"
           p="Finance"
         />
         <ProjectCard
-          src={restaurant}
-          link="https://github.com/hhelenho/reservation-app"
-          h3="Reservation App"
-          p="Consumers"
+          src={options}
+          link="https://github.com/hhelenho/demo"
+          h3="Sentiment Analysis"
+          p="Finance"
         />
         <ProjectCard
-          src={coffee}
-          link="https://github.com/hhelenho/coffee-suggestion"
-          h3="Coffee Suggestion"
-          p="Leisure"
+          src={options}
+          link="https://github.com/hhelenho/demo"
+          h3="Alternative Data"
+          p="Finance"
         />
       </div>
     </section>
