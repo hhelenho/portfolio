@@ -1,7 +1,5 @@
-import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
-// Use React at least once to avoid the warning
-const dummy = React.createElement('div');
 
 interface ThemeContextProps {
   theme: string;

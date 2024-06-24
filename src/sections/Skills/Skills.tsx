@@ -3,7 +3,7 @@ import SkillList from '../../common/SkillList';
 import { useTheme } from '../../common/ThemeContext';
 
 function Skills() {
-  const { theme } = useTheme();
+  useTheme();
 
   return (
     <section id="skills" className={styles.container}>
