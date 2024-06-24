@@ -9,13 +9,13 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={options}
-          link="https://github.com/hhelenho/demo"
+          link="https://github.com/hhelenho/option-pricing"
           h3="Option Pricing"
           p="Finance"
         />
         <ProjectCard
           src={options}
-          link="https://github.com/hhelenho/demo"
+          link="https://github.com/hhelenho/news-sentiment"
           h3="Sentiment Analysis"
           p="Finance"
         />
